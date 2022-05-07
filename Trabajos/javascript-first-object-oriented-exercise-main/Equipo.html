@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EQUIPO DE FUTBOL</title>
+</head>
+<body>
+    <!-- TEXTO INICIAL -->
+    <h2>Equipo de Futbol
+        <ul>
+            <li>| 0 | Perdido</li>
+            <li>| 1 | Empate</li>
+            <li>| 3 | Ganado</li>
+        </ul>
+        <hr>
+    </h2>
+    <h3>Deberas poner el puntaje segun el resultado del partido.</h3>
+    <!-- OBJETOS -->
+    <div id="ocultarTodo">
+        <label>Partido futbol</label>
+        <label id="numeroPartido">1: </label>
+        <input type="text" id="txtEquipo" maxlength="1" placeholder="Solo numeros" style="display:hidden;">
+        <button onclick="btnClickAgregar()" id="btnAgregar">Agregar</button>
+    </div>
+    <hr>
+    <!-- INFORMACION PARTIDO -->
+    <h3>Puntos: </h3>
+    <label id="puntoEquipo"></label>
+    <hr>
+    <h3>ESTADISTICAS:</h3>
+    <!-- PROBLEMA 1 -->
+    <h4>1. Puntos logrados:</h4>
+    <label id="puntosTorneo"></label>
+
+    <!-- PROBLEMA 2 -->
+    <h4>2. Porcentaje de partidos:</h4>
+    <label id="porcentajeGanados"></label>
+    <label id="porcentajePerdidos"></label>
+    <label id="porcentajeEmpatados"></label>
+
+    <!-- PROBLEMA 3 -->
+    <h4>3. Estrellas calificadas:</h4>
+    <label id="estrellas"></label>
+
+    <!-- PROBLEMA 4 -->
+    <h4>4. Partidos ganados, perdidos y empatados:</h4>
+    <label id="cantidadG"></label>
+    <label id="cantidadP"></label>
+    <label id="cantidadE"></label>
+
+    <!-- PROBLEMA 5 -->
+    <h4>5. Puntos que hicieron falta para ganar 5 estrellas</h4>
+    <label id="puntosFaltantes"></label>
+
+    <!-- JAVASCRIPT -->
+    <script src="equipo.js"></script>
+</body>
+</html>

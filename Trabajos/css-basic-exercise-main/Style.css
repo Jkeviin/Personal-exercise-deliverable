@@ -1,0 +1,67 @@
+
+.tittle-container{
+    font-size: 30px;
+    font-style:normal;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #C4DEBA;
+}
+
+.Contenido-Text{
+    background-color: black;
+}
+.cuadro-input{
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.flex-container{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#input-1{
+    border-radius: 10px;
+    border-style: none;
+    width: 90em;
+    text-align: center;
+}
+
+.box{
+    align-items: center;
+    text-align: center;
+    background-color: #CDD2DE;
+    border: 2px solid black;
+    border-radius: 5%;;
+    margin: 10px;
+    width: 15%;
+}
+
+img{
+    border-radius: 5%;
+    width: 15em;
+    margin: 10px;
+    height: 15em;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
